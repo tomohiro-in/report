@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <mata charset="UTF-8">
+        <title>解法の比較</title>
+        <link rel="stylesheet" href="ui.css">
+        <script src="kaihouhikaku.js"></script>
+    </head>
+    <body>
+        <div class="gamen">
+            <div class="midasi1">二分法　<input type="text"size="2" > 回 </div>
+            <div class="midasi2">ニュートン法　<input type="text"size="2" > 回 </div>
+            <div class="nibung">
+                <img src="仮グラフ.png" alt="">
+                <canvas class="myCanvas" id="graph1" width="400" height="300"></canvas>
+                <canvas class="myCanvas" id="graph1b" width="400" height="300"></canvas>      
+            </div>
+            <div class="nyug">
+                <img src="仮グラフ.png" alt="">
+                <canvas class="myCanvas" id="graph1" width="400" height="300"></canvas>
+                <canvas class="myCanvas" id="graph1b" width="400" height="300"></canvas>          
+            </div>
+            <div class="niburaretu"> </div>
+            <div class="nyuraretu"> </div>
+            <div class="settei">
+                <div>
+                <button type="button" id="start" class="normal">start</button>
+                <button type="button" id="clear" class="normal">clear</button>
+                <button type="button" id="stop" class="normal">stop</button>
+                </div>
+                <div>
+                    <p>
+                        aの値（１桁）:<input type="text" name="a" size="2" maxlength="1" >
+                    </p>
+                    <p>
+                        二分法のbの値（一桁かつaより大きく）:<input type="text" name="b" size="2" maxlength="1">
+                    </p>
+                    <p>計算する方程式</p>
+                    <p>
+                        ｘ＾<input type="text" name="mae" size="2" maxlength="1" >+ｘ+<input type="text" name="ato" size="2" maxlength="1" >
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
